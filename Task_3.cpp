@@ -13,5 +13,11 @@ int main() {
         double y = sin(x); // функция y = sin(x)
         std::cout << x << " | " << y << std::endl; // Выводим значения функции для каждого аргумента (x | y)
     }
+
+    int* a = new int[10];
+    a[5] = 0;
+    if (a[5]) {
+        printf("value not null");
+    }
     return 0;
 }
