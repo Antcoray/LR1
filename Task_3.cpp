@@ -12,10 +12,8 @@ int main() {
     std::cin >> end; // Задаем конечно значение переменной
     std::cout << "Введите шаг: ";
     std::cin >> step; // Задаем шаг, с которым с которым будет изменяться аргумент
-    double x =0;
-    double y =0;
-    for (x = start; x <= end; x += step) {
-        y = sin(x); // функция y = sin(x)
+    for (double x = start; x <= end; x += step) {
+        double y = sin(x); // функция y = sin(x)
         std::cout << x << " | " << y << std::endl; // Выводим значения функции для каждого аргумента (x | y)
     }
     return 0;
