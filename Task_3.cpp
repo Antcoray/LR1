@@ -2,10 +2,7 @@
 #include <cmath> 
 
 int main() {
-    double start, end, step;
-    start=0;
-    end=0;
-    step=0;
+    double start=0, end=0, step=0;
     std::cout << "Введите начальное значение x: ";
     std::cin >> start; // Задаем исходное значение переменной
     std::cout << "Введите конечное значение x: ";
